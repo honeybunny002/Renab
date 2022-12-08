@@ -43,7 +43,7 @@ async def start(client,message):
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("Adrama Lovers" ,url="https://t.me/ADrama_Lovers") ], 
-	[InlineKeyboardButton("Owner", url="https://youtube.com/c/LN") ]  ]))
+	[InlineKeyboardButton("Owner", url="https://t.me/hellohoneybunnyy") ]  ]))
 	    return
 	if id:
 	    if old == True:
@@ -55,8 +55,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]  ]))
+	 [[ InlineKeyboardButton("Adrama Lovers" ,url="https://t.me/ADrama_Lovers") ], 
+	[InlineKeyboardButton("Owner", url="https://t.me/hellohoneybunnyy") ]  ]))
 	        except:
 	             return
 	    else:
@@ -71,8 +71,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]  ]))
+	 [[ InlineKeyboardButton("Adrama Lovers" ,url="https://t.me/ADrama_Lovers") ], 
+	[InlineKeyboardButton("Owner", url="https://t.me/hellohoneybunnyy") ]  ]))
 	         
 
 
@@ -88,7 +88,7 @@ async def send_doc(client,message):
        		await message.reply_text("**__You are not subscribed my channel__** ",
        		reply_to_message_id = message.id,
        		reply_markup = InlineKeyboardMarkup(
-       		[ [ InlineKeyboardButton("Support 🇮🇳" ,url=f"https://t.me/{update_channel}") ]   ]))
+       		[ [ InlineKeyboardButton("Owner" ,url=f"https://t.me/{update_channel}") ]   ]))
        		return
        
        bot_data = find_one(int(botid))
